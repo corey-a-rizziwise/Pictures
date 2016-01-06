@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B52CAC23B95E46C4080B65C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ED02F7C71B20CF35C173D5 /* libPods.a */; };
+		8910AC951C3CBA66001F7044 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8910AC941C3CBA66001F7044 /* constants.swift */; };
 		897DBF691C3A2E8200C28668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897DBF681C3A2E8200C28668 /* AppDelegate.swift */; };
 		897DBF6B1C3A2E8200C28668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897DBF6A1C3A2E8200C28668 /* ViewController.swift */; };
 		897DBF6E1C3A2E8200C28668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897DBF6C1C3A2E8200C28668 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		36403F01E345355F599ABA2C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8910AC901C3CB9F3001F7044 /* picture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "picture-Bridging-Header.h"; sourceTree = "<group>"; };
+		8910AC941C3CBA66001F7044 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		897DBF651C3A2E8100C28668 /* picture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		897DBF681C3A2E8200C28668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		897DBF6A1C3A2E8200C28668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,12 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				897DBF681C3A2E8200C28668 /* AppDelegate.swift */,
+				8910AC941C3CBA66001F7044 /* constants.swift */,
 				897DBF6A1C3A2E8200C28668 /* ViewController.swift */,
 				897DBF6C1C3A2E8200C28668 /* Main.storyboard */,
 				897DBF721C3A2E8200C28668 /* Assets.xcassets */,
 				897DBF741C3A2E8200C28668 /* LaunchScreen.storyboard */,
 				897DBF771C3A2E8200C28668 /* Info.plist */,
 				897DBF6F1C3A2E8200C28668 /* picture.xcdatamodeld */,
+				8910AC901C3CB9F3001F7044 /* picture-Bridging-Header.h */,
 			);
 			path = picture;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 				897DBF6B1C3A2E8200C28668 /* ViewController.swift in Sources */,
 				897DBF691C3A2E8200C28668 /* AppDelegate.swift in Sources */,
 				897DBF711C3A2E8200C28668 /* picture.xcdatamodeld in Sources */,
+				8910AC951C3CBA66001F7044 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,10 +467,13 @@
 			baseConfigurationReference = 36403F01E345355F599ABA2C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = picture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.picture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "picture/picture-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -473,10 +482,12 @@
 			baseConfigurationReference = C5277EB63EEDBD38117BC093 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = picture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.picture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "picture/picture-Bridging-Header.h";
 			};
 			name = Release;
 		};

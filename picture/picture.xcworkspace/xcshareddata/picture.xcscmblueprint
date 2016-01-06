@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5EE1C1A0C8E19423987C33D97FCEF081E031AEB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5EE1C1A0C8E19423987C33D97FCEF081E031AEB" : 0,
+    "718F707AB7A4BB3E5FB71A1BB982F779698C5771" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9ED23D5C-9562-43A4-86EE-0A7AEA227FD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5EE1C1A0C8E19423987C33D97FCEF081E031AEB" : "picture\/",
+    "718F707AB7A4BB3E5FB71A1BB982F779698C5771" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "picture",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "picture.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/Pictures.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "718F707AB7A4BB3E5FB71A1BB982F779698C5771"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aomoussa\/picture.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5EE1C1A0C8E19423987C33D97FCEF081E031AEB"
+    }
+  ]
+}

@@ -228,7 +228,7 @@ class UploadViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func elcImagePickerController(picker: ELCImagePickerController!, didFinishPickingMediaWithInfo info: [AnyObject]!) {
         self.dismissViewControllerAnimated(true, completion: nil)
-        
+        print(info)
         for (_, imageDictionary) in info.enumerate() {
             if let imageDictionary = imageDictionary as? Dictionary<String, AnyObject> {
                 if let mediaType = imageDictionary[UIImagePickerControllerMediaType] as? String {
