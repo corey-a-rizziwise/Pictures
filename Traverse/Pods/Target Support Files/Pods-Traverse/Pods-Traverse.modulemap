@@ -1,0 +1,6 @@
+framework module Pods_Traverse {
+  umbrella header "Pods-Traverse-umbrella.h"
+
+  export *
+  module * { export * }
+}

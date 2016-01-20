@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>06270ABF-0D51-4211-9F1F-10E18DA8B10B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Traverse</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2799A4FFF7C03D9367A4D8770EDB308C80B08669</key>
+		<string>https://github.com/corey-a-rizziwise/RealLoginMap.git</string>
+		<key>C8DF66D49C6420D914A4B09A719DCA060E50EE0C</key>
+		<string>https://github.com/corey-a-rizziwise/LoginMap.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Traverse/Traverse.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2799A4FFF7C03D9367A4D8770EDB308C80B08669</key>
+		<string>../..</string>
+		<key>C8DF66D49C6420D914A4B09A719DCA060E50EE0C</key>
+		<string>../../../LoginMap</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/corey-a-rizziwise/RealLoginMap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2799A4FFF7C03D9367A4D8770EDB308C80B08669</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8DF66D49C6420D914A4B09A719DCA060E50EE0C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LoginMap</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2799A4FFF7C03D9367A4D8770EDB308C80B08669</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RealLoginMap</string>
+		</dict>
+	</array>
+</dict>
+</plist>

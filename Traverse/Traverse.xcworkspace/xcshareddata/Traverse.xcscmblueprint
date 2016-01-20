@@ -1,0 +1,79 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BC915DCA6DE5A5BB5AB5A8239085E6103BE27886",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C8DF66D49C6420D914A4B09A719DCA060E50EE0C" : 0,
+    "516EE06E3C59242BC515E503B6DAF3A8C9E76F4E" : 0,
+    "8E072632743224A0AC045A168440702B49C3B1EC" : 0,
+    "3AA7A1B696D72009981F3FD4E46C1E07F67FCC18" : 0,
+    "BC915DCA6DE5A5BB5AB5A8239085E6103BE27886" : 0,
+    "2799A4FFF7C03D9367A4D8770EDB308C80B08669" : 0,
+    "66EC3E77750E9BE14A6CB25BF6395D7023F07542" : 0,
+    "60F87A10ED3B45355C3B2EB20CD5615625864696" : 0,
+    "15FC9547555E655E7EE0940654953271E9DABDDB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06270ABF-0D51-4211-9F1F-10E18DA8B10B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C8DF66D49C6420D914A4B09A719DCA060E50EE0C" : "LoginMap",
+    "516EE06E3C59242BC515E503B6DAF3A8C9E76F4E" : "TraverseTechnologiesV3\/",
+    "8E072632743224A0AC045A168440702B49C3B1EC" : "TraverseTechnologiesV5\/",
+    "3AA7A1B696D72009981F3FD4E46C1E07F67FCC18" : "TraverseTechnologies\/",
+    "BC915DCA6DE5A5BB5AB5A8239085E6103BE27886" : "TraverseTechnologiesV8\/",
+    "2799A4FFF7C03D9367A4D8770EDB308C80B08669" : "RealLoginMap",
+    "66EC3E77750E9BE14A6CB25BF6395D7023F07542" : "TraverseTechnologiesV6\/",
+    "60F87A10ED3B45355C3B2EB20CD5615625864696" : "TraverseTechnologiesV7\/",
+    "15FC9547555E655E7EE0940654953271E9DABDDB" : "TraverseTechnologiesV2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Traverse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Traverse\/Traverse.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologiesV2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15FC9547555E655E7EE0940654953271E9DABDDB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/RealLoginMap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2799A4FFF7C03D9367A4D8770EDB308C80B08669"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologies.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AA7A1B696D72009981F3FD4E46C1E07F67FCC18"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologiesV3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "516EE06E3C59242BC515E503B6DAF3A8C9E76F4E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologiesV7.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60F87A10ED3B45355C3B2EB20CD5615625864696"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologiesV6.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66EC3E77750E9BE14A6CB25BF6395D7023F07542"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologiesV5.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E072632743224A0AC045A168440702B49C3B1EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/TraverseTechnologiesV8.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC915DCA6DE5A5BB5AB5A8239085E6103BE27886"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/corey-a-rizziwise\/LoginMap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8DF66D49C6420D914A4B09A719DCA060E50EE0C"
+    }
+  ]
+}
