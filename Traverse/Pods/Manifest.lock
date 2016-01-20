@@ -1,9 +1,17 @@
 PODS:
+  - AWSCore (2.3.3)
+  - AWSS3 (2.3.3):
+    - AWSCore (= 2.3.3)
+  - ELCImagePickerController (0.2.0)
   - GoogleMaps (1.10.3)
+  - JTSImageViewController (1.5.1)
   - Sodium (0.1)
 
 DEPENDENCIES:
+  - AWSS3 (~> 2.3.0)
+  - ELCImagePickerController
   - GoogleMaps
+  - JTSImageViewController
   - Sodium (from `https://github.com/jedisct1/swift-sodium.git`)
 
 EXTERNAL SOURCES:
@@ -16,7 +24,11 @@ CHECKOUT OPTIONS:
     :git: https://github.com/jedisct1/swift-sodium.git
 
 SPEC CHECKSUMS:
+  AWSCore: b12704516e21ed34cfe7547e07ab945b079d1f56
+  AWSS3: 675f59e0c338e61441117f03018187b9deb359c4
+  ELCImagePickerController: b1b7084434a7d49f2cfc916bde1f3ba353d38de9
   GoogleMaps: 945e4ac3b74bcca3ddada51df256eb7beddb474d
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
   Sodium: 5312975aa3e333467e9cfa62549752f150cd0fcd
 
 COCOAPODS: 0.39.0

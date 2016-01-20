@@ -7,9 +7,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 #platform :ios, '8.1'
 pod 'GoogleMaps'
 # xcodeproj '/Users/Sam/Desktop/LoginMap/Traverse/Traverse'
+pod 'AWSS3', '~> 2.3.0'
+pod 'ELCImagePickerController'
+pod 'JTSImageViewController'
 
 target 'Traverse' do
 	pod 'Sodium',:git => 'https://github.com/jedisct1/swift-sodium.git'
+
 end
 
 target 'TraverseTests' do

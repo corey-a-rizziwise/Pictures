@@ -84,8 +84,16 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Traverse/AWSCore.framework"
+  install_framework "Pods-Traverse/AWSS3.framework"
+  install_framework "Pods-Traverse/ELCImagePickerController.framework"
+  install_framework "Pods-Traverse/JTSImageViewController.framework"
   install_framework "Pods-Traverse/Sodium.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Traverse/AWSCore.framework"
+  install_framework "Pods-Traverse/AWSS3.framework"
+  install_framework "Pods-Traverse/ELCImagePickerController.framework"
+  install_framework "Pods-Traverse/JTSImageViewController.framework"
   install_framework "Pods-Traverse/Sodium.framework"
 fi

@@ -82,3 +82,16 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/AWSCore.framework"
+  install_framework "Pods/AWSS3.framework"
+  install_framework "Pods/ELCImagePickerController.framework"
+  install_framework "Pods/JTSImageViewController.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/AWSCore.framework"
+  install_framework "Pods/AWSS3.framework"
+  install_framework "Pods/ELCImagePickerController.framework"
+  install_framework "Pods/JTSImageViewController.framework"
+fi
