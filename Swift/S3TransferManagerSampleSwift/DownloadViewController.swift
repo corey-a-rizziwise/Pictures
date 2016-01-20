@@ -104,6 +104,7 @@ class DownloadViewController: UIViewController, UICollectionViewDelegate, UIColl
                             let downloadRequest = AWSS3TransferManagerDownloadRequest()
                             downloadRequest.bucket = S3BucketName
                             downloadRequest.key = s3Object.key
+                            print(s3Object.key)
                             downloadRequest.downloadingFileURL = downloadingFileURL
                             
                             self.downloadRequests.append(downloadRequest)
